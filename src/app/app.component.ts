@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { SquareComponent } from "./square/square.component";
 import { BoardComponent } from "./board/board.component";
+//https://youtu.be/G0bBLvWXBvc
 
 @Component({
     selector: 'app-root',

@@ -1,9 +1,37 @@
+.content {
+    display: grid;
+    place-items: center;
+  }
+
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
 }
+
+.button {
+    display: inline-block;
+    margin:10px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
   
+  .button:hover {background-color: #04aa5f}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 app-square {
     border: 1px gray solid;
     height: 200px;
